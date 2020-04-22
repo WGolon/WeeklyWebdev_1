@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weekly_WebDev_Challenge_1</title>
+
+</head>
+<body>
+
+    <header>
+        <img src="/images/logo.png" class="logo-top" alt="masteralb logo">
+    </header>
+
+    <div class="content">
+        <!-- Register form -->
+        <form class="form" action="" method="POST">
+            <h2> Register form </h2>
+            <fieldset class="form-fieldset-field">
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"
+                    >
+                </div>
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input 
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                    >
+                </div>
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input 
+                    type="password"
+                    name="confirm-password"
+                    id="confirm-password"
+                    placeholder="Confirm Password"
+                    >
+                </div>
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <input 
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    >
+                </div>
+
+                <select name="location" id="location">
+                    <option value="" selected disabled>Your Location</option>
+                    <option value="Kraków">Kraków</option>
+                    <option value="Gdańsk">Gdańsk</option>
+                    <option value="Toruń">Toruń</option>
+                    <option value="Kołobrzeg">Kołobrzeg</option>
+                    <option value="Zakopane">Zakopane</option>
+                    <option value="Warszawa">Warszawa</option>
+                </select>
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms"> I have read and accept the terms of use. </label>
+                </div>
+                <button type="submit" class="btn-submit">Sign Up</button>
+            </fieldset>
+        </form>
+
+        <form class="form" action="" method="POST">
+            <h2>Send Email</h2>
+
+            <fieldset class="form-fieldset-field">
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <input 
+                    type="text"
+                    name="user"
+                    id="user"
+                    placeholder="Your name"
+                    >
+                </div>
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    >
+                </div>
+                <div class="message-wrapper">
+                    <textarea 
+                    name="message" 
+                    id="message"
+                    placeholder="Type your message..."
+                    ></textarea>
+                </div>
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" name="send_copy" id="send_copy">
+                    <label for="send_copy"> Send a copy to my Email.</label>
+                </div>
+                <button type="submit" class="btn-submit"> Send Email</button>
+            </fieldset>
+        </form>
+        <form action="" method="POST" class="form">
+            <h2>Sign In Fomr</h2>
+            <fieldset class="form-fieldset-field">
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Username"
+                    >
+                </div>
+                <div class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input 
+                    type="text"
+                    name="passowrd"
+                    id="password"
+                    placeholder="Password"
+                    >
+                </div>
+                <div class="checkbox-wrapper">
+                    <input class="checkbox" type="checkbox" name="remember" id="remember">
+                    <label for="remember"> Remember me</label>
+                    <button class="btn-submit" type="submit">Sign In</button>
+                </div>
+            </fieldset>
+
+        </form>
+    </div>
+
+</body>
+</html>

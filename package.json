@@ -1,0 +1,17 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "WeeklyWebdev1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.42.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
+  }
+}
